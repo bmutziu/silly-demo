@@ -1,10 +1,10 @@
 image:
-  repository: c8n.io/vfarcic/silly-demo
-  tag: 1.4.92
+  repository: c8n.io/bmutziu/silly-demo
+  tag: 1.4.93
 ingress:
-  host: devopstoolkitseries.com
+  host: bmutziu.me
 db:
-  enabled: false
+  enabled: true
 postgresql:
   global:
     persistence:
