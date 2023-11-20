@@ -15,7 +15,7 @@ dbProvider: "local-k8s" | "aws-official" | "azure-official"
 	metadata: labels:       *selectorLabels | {[ string]: string}
 	metadata: annotations: {
 		"description": "This is a silly demo",
-		"owner": "Viktor Farcic (viktor@farcic.com)",
+		"owner": "Bogdan Muțiu (bmutziu@bmutziu.me)",
 		"team": "dot",
 		"language": "Go",
 	}
@@ -24,7 +24,7 @@ dbProvider: "local-k8s" | "aws-official" | "azure-official"
 	selectorLabels:  *{"app.kubernetes.io/name": metadata.name} | {[ string]: string}
 	podAnnotations?: {[ string]: string}
 	image: {
-		repository: *"c8n.io/vfarcic/silly-demo" | string
+		repository: *"c8n.io/bmutziu/silly-demo" | string
 		tag:        *"latest" | string
 	}
 	_resources: {
@@ -52,6 +52,7 @@ dbProvider: "local-k8s" | "aws-official" | "azure-official"
 	ingress: {
 		host:    *"sillydemo.com" | string
 		className?: string
+		annotations?: {[ string]: string}
 	}
 	db: {
 		enabled: *false | bool

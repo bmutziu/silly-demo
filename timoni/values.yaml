@@ -1,9 +1,11 @@
 values:
   image:
-    tag: "1.4.92"
+    tag: "1.4.93"
   ingress:
-    className: traefik
-    host: sillydemo.127.0.0.1.nip.io
+    # className: traefik
+    host: bmutziu.me
+    annotations:
+      ingress.kubernetes.io/ssl-redirect: "false"
   # autoscaling:
   #   enabled: true
   #   minReplicas: 3

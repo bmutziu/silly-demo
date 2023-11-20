@@ -5,7 +5,7 @@
 package main
 
 import (
-	templates "devopstoolkitseries.com/silly-demo/templates"
+	templates "bmutziu.me/silly-demo/templates"
 )
 
 values: templates.#Config

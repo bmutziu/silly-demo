@@ -1,1 +1,1 @@
-module: "devopstoolkitseries.com/silly-demo"
+module: "bmutziu.me/silly-demo"
