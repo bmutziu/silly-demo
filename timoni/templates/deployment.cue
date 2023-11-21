@@ -51,28 +51,13 @@ import (
 							env: [
 								{
 									name: "DB_ENDPOINT"
-									valueFrom: {
-										secretKeyRef: {
-											name: _config.metadata.name
-											key: "endpoint"
-										}
-									}
+									value: _config.metadata.name + "-postgresql"
 								}, {
 									name: "DB_PORT"
-									valueFrom: {
-										secretKeyRef: {
-											name: _config.metadata.name
-											key: "port"
-										}
-									}
+									value: "5432"
 								}, {
 									name: "DB_USER"
-									valueFrom: {
-										secretKeyRef: {
-											name: _config.metadata.name
-											key: "username"
-										}
-									}
+									value: "postgres"
 								}, {
 									name: "DB_PASS"
 									valueFrom: {

@@ -9,7 +9,7 @@ import (
 	apiVersion: "v1"
 	kind:       "Secret"
 	metadata: {
-		name: _config.metadata.name + "-password"
+		name: _config.metadata.name
 		namespace: _config.metadata.namespace
 		labels: _config.metadata.labels
 		annotations: {
@@ -42,7 +42,7 @@ import (
 			}
 		}
   		parameters: {
-    		version: "13"
+    		version: "12"
     		size: "small"
 		}	
 	}

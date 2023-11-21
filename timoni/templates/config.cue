@@ -56,7 +56,7 @@ dbProvider: "local-k8s" | "aws-official" | "azure-official"
 	}
 	db: {
 		enabled: *false | bool
-		provider: *"google-official" | dbProvider
+		provider: *"aws-official" | dbProvider
 		type: *"postgres" | string
 	}
 }
