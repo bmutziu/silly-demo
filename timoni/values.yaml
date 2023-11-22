@@ -11,4 +11,4 @@ values:
   #   minReplicas: 3
   db:
     enabled: true
-    provider: "local-k8s"
+    provider: "aws-official"
