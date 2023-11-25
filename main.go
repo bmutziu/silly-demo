@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
+	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 	"log"
@@ -14,6 +15,8 @@ import (
 )
 
 var serviceName string
+
+var tracer = otel.Tracer("silly-demo")
 
 func main() {
 	log.SetOutput(os.Stderr)
@@ -41,9 +44,9 @@ func main() {
 	router := gin.New()
 	router.Use(otelgin.Middleware(serviceName))
 	router.GET("/fibonacci", fibonacciHandler)
-	router.POST("/video", videoPostHandler)
-	router.GET("/videos", videosGetHandler)
-	router.GET("/ping", pingHandler)
+	// router.POST("/video", videoPostHandler)
+	// router.GET("/videos", videosGetHandler)
+	// router.GET("/ping", pingHandler)
 	router.GET("/memory-leak", memoryLeakHandler)
 	router.GET("/", rootHandler)
 	port := os.Getenv("PORT")
