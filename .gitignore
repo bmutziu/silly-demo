@@ -5,3 +5,8 @@
 /traces.json
 /silly-demo-helm*
 /.vscode/*
+/.idea/*
+
+
+# Ignore DevSpace cache and log folder
+.devspace/
