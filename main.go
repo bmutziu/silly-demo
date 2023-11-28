@@ -6,6 +6,7 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
+	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 	"log"
 	"net/http"
@@ -20,7 +21,7 @@ var tracer = otel.Tracer("silly-demo")
 
 func main() {
 	log.SetOutput(os.Stderr)
-	serviceName := "silly-demo"
+	serviceName = "silly-demo"
 	if os.Getenv("SERVICE_NAME") != "" {
 		serviceName = os.Getenv("SERVICE_NAME")
 	}
@@ -29,7 +30,8 @@ func main() {
 	}
 
 	// OpenTelemetry
-	tp, err := initTracer()
+	var err error
+	tp, err = initTracer()
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -38,6 +40,8 @@ func main() {
 			log.Printf("Error shutting down tracer provider: %v", err)
 		}
 	}()
+	otel.SetTracerProvider(tp)
+	otel.SetTextMapPropagator(propagation.NewCompositeTextMapPropagator(propagation.TraceContext{}, propagation.Baggage{}))
 
 	// Server
 	log.Println("Starting server...")

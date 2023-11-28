@@ -1,12 +1,15 @@
 package main
 
 import (
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/propagation"
+	"go.opentelemetry.io/otel/sdk/resource"
+	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
+	"log"
 	"os"
 
 	stdout "go.opentelemetry.io/otel/exporters/stdout/stdouttrace"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+
+	"go.opentelemetry.io/otel/exporters/jaeger"
 )
 
 var tp *sdktrace.TracerProvider
@@ -14,7 +17,7 @@ var tp *sdktrace.TracerProvider
 func initTracer() (*sdktrace.TracerProvider, error) {
 	url := os.Getenv("JAEGER_ENDPOINT")
 	if len(url) > 0 {
-		return initFileTracer()
+		return initJaegerTracer(url)
 	} else {
 		return initFileTracer()
 	}
@@ -37,7 +40,20 @@ func initFileTracer() (*sdktrace.TracerProvider, error) {
 		sdktrace.WithSampler(sdktrace.AlwaysSample()),
 		sdktrace.WithBatcher(exporter),
 	)
-	otel.SetTracerProvider(tp)
-	otel.SetTextMapPropagator(propagation.NewCompositeTextMapPropagator(propagation.TraceContext{}, propagation.Baggage{}))
 	return tp, nil
+}
+
+func initJaegerTracer(url string) (*sdktrace.TracerProvider, error) {
+	log.Printf("Initializing tracing to jaeger at %s for service: %s\n", url, serviceName)
+	exporter, err := jaeger.New(jaeger.WithCollectorEndpoint(jaeger.WithEndpoint(url)))
+	if err != nil {
+		return nil, err
+	}
+	return sdktrace.NewTracerProvider(
+		sdktrace.WithBatcher(exporter),
+		sdktrace.WithResource(resource.NewWithAttributes(
+			semconv.SchemaURL,
+			semconv.ServiceNameKey.String(serviceName),
+		)),
+	), nil
 }
