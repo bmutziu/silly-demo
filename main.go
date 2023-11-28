@@ -17,7 +17,7 @@ import (
 
 var serviceName string
 
-var tracer = otel.Tracer("silly-demo")
+// var tracer = otel.Tracer("silly-demo")
 
 func main() {
 	log.SetOutput(os.Stderr)
@@ -48,8 +48,8 @@ func main() {
 	router := gin.New()
 	router.Use(otelgin.Middleware(serviceName))
 	router.GET("/fibonacci", fibonacciHandler)
-	// router.POST("/video", videoPostHandler)
-	// router.GET("/videos", videosGetHandler)
+	router.POST("/video", videoPostHandler)
+	router.GET("/videos", videosGetHandler)
 	// router.GET("/ping", pingHandler)
 	router.GET("/memory-leak", memoryLeakHandler)
 	router.GET("/", rootHandler)
