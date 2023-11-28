@@ -6,6 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-pg/pg/extra/pgotel/v10 v10.11.2
 	github.com/go-pg/pg/v10 v10.11.2
+	github.com/go-resty/resty/v2 v2.10.0
 	go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin v0.46.1
 	go.opentelemetry.io/otel v1.21.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0

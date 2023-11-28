@@ -23,3 +23,5 @@ spec:
               value: silly-demo
             - name: JAEGER_ENDPOINT
               value: http://jaeger-collector.observability:14268/api/traces
+            - name: VERSION
+              value: "1.5.1"
