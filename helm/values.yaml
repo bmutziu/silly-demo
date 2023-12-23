@@ -1,6 +1,6 @@
 image:
-  repository: c8n.io/bmutziu/silly-demo
-  tag: 1.4.93
+  repository: c8n.io/vfarcic/silly-demo
+  tag: 1.4.99
 ingress:
   host: bmutziu.me
 db:

@@ -15,6 +15,11 @@ var ctx = context.Background()
 var image = "c8n.io/vfarcic/silly-demo"
 var dev = false
 
+const (
+	DestinationCluster = "cluster"
+	DestinationFile    = "file"
+)
+
 func main() {
 	if len(os.Getenv("DEV")) > 0 {
 		dev = true
@@ -41,9 +46,10 @@ func main() {
 	// Actions
 	publish(client, tag)
 	publishTimoni(client, tag)
-	if dev {
-		deploy(client)
-	} else {
+	if deploy(client) != nil {
+		panic(err)
+	}
+	if !dev {
 		updateHelm(client, tag)
 	}
 }
@@ -91,21 +97,33 @@ func publishImages(client *dagger.Client, dockerfile string, tags []string) {
 	}
 }
 
-func deploy(client *dagger.Client) {
+func deploy(client *dagger.Client) error {
+	message := "Deployed the app"
+	valuesFile := "values.yaml"
+	if dev {
+		valuesFile = "values-dev.yaml"
+	}
+	command := fmt.Sprintf("timoni build silly-demo timoni --values timoni/%s", valuesFile)
 	out, err := client.Container().From("golang:1.21.4").
 		WithExec([]string{"go", "install", "github.com/stefanprodan/timoni/cmd/timoni@latest"}).
 		WithDirectory("timoni", client.Host().Directory("timoni")).
-		WithExec([]string{"sh", "-c", "timoni build silly-demo timoni --values timoni/values-dev.yaml"}).
+		WithExec([]string{"sh", "-c", command}).
 		Stdout(ctx)
 	if err != nil {
-		panic(err)
+		return err
 	}
-	cmd := exec.Command("sh", "-c", fmt.Sprintf("echo '%s' | kubectl apply --filename -", out))
-	_, err = cmd.CombinedOutput()
-	if err != nil {
-		panic(err)
+	if dev {
+		cmd := exec.Command("sh", "-c", fmt.Sprintf("echo '%s' | kubectl apply --filename -", out))
+		_, err = cmd.CombinedOutput()
+	} else {
+		path := "k8s/app.yaml"
+		err = writeFile(out, path)
+		message = fmt.Sprintf("Output Kubernetes manifests to %s\n", path)
 	}
-	fmt.Println("Deployed the app")
+	if err == nil {
+		fmt.Println(message)
+	}
+	return err
 }
 
 func publishTimoni(client *dagger.Client, tag string) {
@@ -133,19 +151,7 @@ func publishTimoni(client *dagger.Client, tag string) {
 		}
 		regex := regexp.MustCompile(`image: tag:.*`)
 		replacedString := regex.ReplaceAllString(string(fileContents), fmt.Sprintf("image: tag: \"%s\"", tag))
-		file, err := os.OpenFile("timoni/values.cue", os.O_WRONLY|os.O_TRUNC, 0644)
-		if err != nil {
-			panic(err)
-		}
-		defer file.Close()
-		_, err = file.WriteString(replacedString)
-		if err != nil {
-			panic(err)
-		}
-		err = file.Sync()
-		if err != nil {
-			panic(err)
-		}
+		writeFile(replacedString, "timoni/values.cue")
 		regPass := client.SetSecret("registry-password", os.Getenv("REGISTRY_PASSWORD"))
 		out, err := client.Container().From("golang:1.21.4").
 			WithExec([]string{"go", "install", "github.com/stefanprodan/timoni/cmd/timoni@latest"}).
@@ -180,4 +186,18 @@ func updateHelm(client *dagger.Client, tag string) {
 		panic(err)
 	}
 	fmt.Println("Updated Helm files")
+}
+
+func writeFile(content, path string) error {
+	file, err := os.OpenFile(path, os.O_WRONLY|os.O_TRUNC, 0644)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	_, err = file.WriteString(content)
+	if err != nil {
+		return err
+	}
+	err = file.Sync()
+	return err
 }
