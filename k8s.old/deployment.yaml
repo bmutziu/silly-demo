@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: silly-demo
-          image: c8n.io/bmutziu/silly-demo:1.5.2
+          image: c8n.io/bmutziu/silly-demo:1.6.6
           ports:
             - containerPort: 8080
           resources:
