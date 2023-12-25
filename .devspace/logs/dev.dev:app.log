@@ -1,0 +1,134 @@
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:05:03+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:05:14+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:05:24+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:05:35+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:05:45+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:05:56+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:06+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:17+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:27+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:38+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:48+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:06:59+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:07:09+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:07:20+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:07:30+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:07:41+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:07:51+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:01+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:12+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:22+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:33+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:43+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:08:53+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:14+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:25+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:35+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:46+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:09:56+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:07+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:17+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:27+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:38+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:48+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:10:59+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:11:09+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:11:20+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:11:30+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:11:41+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:11:51+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:02+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:12+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:23+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:33+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:44+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:12:54+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:15+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:25+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:36+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:46+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:13:56+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:07+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:17+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:28+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:38+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:49+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:14:59+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:24:13+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:24:23+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:24:34+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:24:44+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:24:54+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:25:05+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod silly-demo-helm-devspace-5cf88fccf7-fjkpw has status: ContainerCreating","time":"2023-11-28T22:25:15+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:32:46+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-f6mzr has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:32:57+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-f6mzr has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:33:07+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-f6mzr has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:33:18+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-f6mzr has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:33:28+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-f6mzr has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:33:38+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:35:04+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-mtqg2 has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:35:15+02:00"}
+{"level":"warning","msg":"dev:app Pod silly-demo-helm-devspace-5cf88fccf7-mtqg2 has critical status: CreateContainerConfigError. DevSpace will continue waiting, but this operation might timeout","time":"2023-11-28T22:35:25+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:36:52+02:00"}
+{"level":"info","msg":"dev:app Selected pod silly-demo-helm-devspace-5cf88fccf7-swllk","time":"2023-11-28T22:36:53+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-11-28T22:36:53+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:36:54+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-11-28T22:37:00+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-11-28T22:37:00+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-11-28T22:37:04+02:00"}
+{"level":"info","msg":"dev:app ssh   Port forwarding started on: 11668 -\u003e 8022","time":"2023-11-28T22:37:05+02:00"}
+{"level":"info","msg":"dev:app proxy Port forwarding started on: 11849 \u003c- 10567","time":"2023-11-28T22:37:05+02:00"}
+{"level":"info","msg":"dev:app ssh   Use 'ssh app.silly-demo.devspace' to connect via SSH","time":"2023-11-28T22:37:06+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to main:silly-demo-helm-devspace-5cf88fccf7-swllk (pod:container)","time":"2023-11-28T22:37:06+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:37:27+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:37:28+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:38:02+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:38:02+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:38:36+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:38:36+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:39:10+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:39:10+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:39:44+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:39:44+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:40:18+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:40:18+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:40:52+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:40:52+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:41:26+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:41:27+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:42:00+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:42:01+02:00"}
+{"level":"info","msg":"dev:app term  Restarting because: command terminated with exit code 137","time":"2023-11-28T22:47:31+02:00"}
+{"level":"error","msg":"dev:app proxy Restarting because: connection lost to pod demo/silly-demo-helm-devspace-5cf88fccf7-swllk:  command terminated with exit code 137","time":"2023-11-28T22:47:31+02:00"}
+{"level":"error","msg":"dev:app sync  Restarting because: Sync - connection lost to pod demo/silly-demo-helm-devspace-5cf88fccf7-swllk:  command terminated with exit code 137","time":"2023-11-28T22:47:31+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:47:31+02:00"}
+{"level":"info","msg":"dev:app Selected pod silly-demo-helm-devspace-5cf88fccf7-mtvnj","time":"2023-11-28T22:47:32+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-11-28T22:47:32+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:47:33+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-11-28T22:47:35+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-11-28T22:47:35+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-11-28T22:47:39+02:00"}
+{"level":"info","msg":"dev:app ssh   Port forwarding started on: 11668 -\u003e 8022","time":"2023-11-28T22:47:40+02:00"}
+{"level":"info","msg":"dev:app proxy Port forwarding started on: 10817 \u003c- 10567","time":"2023-11-28T22:47:40+02:00"}
+{"level":"info","msg":"dev:app ssh   Use 'ssh app.silly-demo.devspace' to connect via SSH","time":"2023-11-28T22:47:40+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to main:silly-demo-helm-devspace-5cf88fccf7-mtvnj (pod:container)","time":"2023-11-28T22:47:41+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-11-28T22:51:53+02:00"}
+{"level":"info","msg":"dev:app Selected pod silly-demo-helm-devspace-5cf88fccf7-2jhzk","time":"2023-11-28T22:51:55+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-11-28T22:51:55+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:51:55+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-11-28T22:51:57+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-11-28T22:51:57+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-11-28T22:52:01+02:00"}
+{"level":"info","msg":"dev:app ssh   Port forwarding started on: 11668 -\u003e 8022","time":"2023-11-28T22:52:02+02:00"}
+{"level":"info","msg":"dev:app proxy Port forwarding started on: 10493 \u003c- 10567","time":"2023-11-28T22:52:02+02:00"}
+{"level":"info","msg":"dev:app ssh   Use 'ssh app.silly-demo.devspace' to connect via SSH","time":"2023-11-28T22:52:02+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to main:silly-demo-helm-devspace-5cf88fccf7-2jhzk (pod:container)","time":"2023-11-28T22:52:03+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:52:29+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:52:29+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:53:03+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:53:03+02:00"}
+{"level":"error","msg":"dev:app ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:53:37+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:53:37+02:00"}

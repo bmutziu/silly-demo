@@ -1,0 +1,503 @@
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:36:54+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:36:55+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:36:56+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:11668 -> 8022
+Forwarding from [::1]:11668 -> 8022
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:37:28+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:37:29+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:37:31+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:03+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:04+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:05+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:37+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:38+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:38:39+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:11+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:12+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:13+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:45+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:46+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:39:47+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:19+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:20+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:21+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:53+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:54+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:40:55+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:41:27+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:41:28+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-4b88f7ac-99de-2837-ead0-846f5d48e1f1\": failed to connect to localhost:8080 inside namespace \"b360c0895953171198518aac75343104be3f02388722518ade40be76e807b8e2\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:41:29+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a06453e5-4e8c-b197-7581-eb2b73040d43\": failed to connect to localhost:8080 inside namespace \"4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:47:33+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a06453e5-4e8c-b197-7581-eb2b73040d43\": failed to connect to localhost:8080 inside namespace \"4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:47:34+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a06453e5-4e8c-b197-7581-eb2b73040d43\": failed to connect to localhost:8080 inside namespace \"4ee3a814be0d4feb8122717168aef5971bfbb279fa70e7b270ceed1b29b60f39\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:47:35+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:11668 -> 8022
+Forwarding from [::1]:11668 -> 8022
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:51:56+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:51:57+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:51:58+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:11668 -> 8022
+Forwarding from [::1]:11668 -> 8022
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:52:30+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:52:31+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:52:32+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 11668
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:04+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:05+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:06+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:38+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:39+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-a43a1304-14ea-1167-52ce-15a134787a55\": failed to connect to localhost:8080 inside namespace \"bcf19aaaf269d4c232c36a3c1eab354278fd497ef8d52109045f61d4c8888c97\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:53:40+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:55:33+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:55:34+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:55:35+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:10397 -> 8022
+Forwarding from [::1]:10397 -> 8022
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 10397
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:07+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:08+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:09+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:41+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:42+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-c23f3246-15e3-f397-d461-268c5914f1f1\": failed to connect to localhost:8080 inside namespace \"c924634646fcfa71492b782dfd4be09b9e075d5167163ed3e68cb104ae246bfb\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:56:43+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:58:53+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:58:54+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:58:55+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:10397 -> 8022
+Forwarding from [::1]:10397 -> 8022
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 10397
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:59:27+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:59:28+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T22:59:29+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T23:00:01+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T23:00:02+02:00"}
+Handling connection for 8080
+{"level":"error","msg":"an error occurred forwarding 8080 -\u003e 8080: error forwarding port 8080 to pod 0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6, uid : failed to execute portforward in network namespace \"/var/run/netns/cni-777c2c75-3e42-0701-fbfc-a9b6cc6c7689\": failed to connect to localhost:8080 inside namespace \"0e7c88890ccbc7fac373d2a2e46677b66bee6c25826cdb1245cf15d2100380e6\", IPv4: dial tcp4 127.0.0.1:8080: connect: connection refused IPv6 dial tcp6 [::1]:8080: connect: connection refused","time":"2023-11-28T23:00:03+02:00"}
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Forwarding from 127.0.0.1:2345 -> 2345
+Forwarding from [::1]:2345 -> 2345
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080

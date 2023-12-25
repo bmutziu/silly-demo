@@ -1,0 +1,26 @@
+{"level":"info","msg":"Inject devspacehelper...","time":"2023-11-28T22:36:54+02:00"}
+{"level":"info","msg":"Couldn't find devspacehelper-arm64, will try to download it now","time":"2023-11-28T22:36:54+02:00"}
+{"level":"info","msg":"Successfully injected devspacehelper into pod demo/silly-demo-helm-devspace-5cf88fccf7-swllk","time":"2023-11-28T22:37:00+02:00"}
+{"level":"info","msg":"Start syncing","time":"2023-11-28T22:37:00+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2023-11-28T22:37:00+02:00"}
+{"level":"info","msg":"Upstream - Upload 1773 create change(s) (Uncompressed ~47063.42 KB)","time":"2023-11-28T22:37:01+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1773 change(s)","time":"2023-11-28T22:37:03+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2023-11-28T22:37:04+02:00"}
+{"level":"info","msg":"Upstream - Upload File 'main.go'","time":"2023-11-28T22:42:41+02:00"}
+{"level":"info","msg":"Upstream - Upload 1 create change(s) (Uncompressed ~0.95 KB)","time":"2023-11-28T22:42:41+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1 change(s)","time":"2023-11-28T22:42:41+02:00"}
+{"level":"error","msg":"Sync Error on /Users/bmutziu/work/k8s/silly-demo: Sync - connection lost to pod demo/silly-demo-helm-devspace-5cf88fccf7-swllk:  command terminated with exit code 137","time":"2023-11-28T22:47:31+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2023-11-28T22:47:33+02:00"}
+{"level":"info","msg":"Successfully injected devspacehelper into pod demo/silly-demo-helm-devspace-5cf88fccf7-mtvnj","time":"2023-11-28T22:47:35+02:00"}
+{"level":"info","msg":"Start syncing","time":"2023-11-28T22:47:35+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2023-11-28T22:47:35+02:00"}
+{"level":"info","msg":"Upstream - Upload 1773 create change(s) (Uncompressed ~47063.42 KB)","time":"2023-11-28T22:47:36+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1773 change(s)","time":"2023-11-28T22:47:38+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2023-11-28T22:47:39+02:00"}
+{"level":"info","msg":"Inject devspacehelper...","time":"2023-11-28T22:51:55+02:00"}
+{"level":"info","msg":"Successfully injected devspacehelper into pod demo/silly-demo-helm-devspace-5cf88fccf7-2jhzk","time":"2023-11-28T22:51:57+02:00"}
+{"level":"info","msg":"Start syncing","time":"2023-11-28T22:51:57+02:00"}
+{"level":"info","msg":"Downstream - Initial sync completed","time":"2023-11-28T22:51:57+02:00"}
+{"level":"info","msg":"Upstream - Upload 1773 create change(s) (Uncompressed ~47063.42 KB)","time":"2023-11-28T22:51:58+02:00"}
+{"level":"info","msg":"Upstream - Successfully processed 1773 change(s)","time":"2023-11-28T22:52:00+02:00"}
+{"level":"info","msg":"Upstream - Initial sync completed","time":"2023-11-28T22:52:01+02:00"}

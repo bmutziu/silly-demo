@@ -1,0 +1,33 @@
+{"level":"info","msg":"dev:silly-demo Waiting for pod to become ready...","time":"2023-11-28T22:55:30+02:00"}
+{"level":"info","msg":"dev:silly-demo Selected pod silly-demo-helm-devspace-5cf88fccf7-brwwb","time":"2023-11-28T22:55:32+02:00"}
+{"level":"info","msg":"dev:silly-demo open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-11-28T22:55:32+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:55:32+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-11-28T22:55:34+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Waiting for initial sync to complete","time":"2023-11-28T22:55:34+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Initial sync completed","time":"2023-11-28T22:55:38+02:00"}
+{"level":"info","msg":"dev:silly-demo ssh   Port forwarding started on: 10397 -\u003e 8022","time":"2023-11-28T22:55:39+02:00"}
+{"level":"info","msg":"dev:silly-demo proxy Port forwarding started on: 11535 \u003c- 10567","time":"2023-11-28T22:55:39+02:00"}
+{"level":"info","msg":"dev:silly-demo ssh   Use 'ssh silly-demo.silly-demo.devspace' to connect via SSH","time":"2023-11-28T22:55:39+02:00"}
+{"level":"info","msg":"dev:silly-demo term  Opening shell to main:silly-demo-helm-devspace-5cf88fccf7-brwwb (pod:container)","time":"2023-11-28T22:55:40+02:00"}
+{"level":"error","msg":"dev:silly-demo ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:56:06+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:56:07+02:00"}
+{"level":"error","msg":"dev:silly-demo ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:56:40+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:56:41+02:00"}
+{"level":"info","msg":"dev:silly-demo Waiting for pod to become ready...","time":"2023-11-28T22:58:51+02:00"}
+{"level":"info","msg":"dev:silly-demo Selected pod silly-demo-helm-devspace-5cf88fccf7-wr8bd","time":"2023-11-28T22:58:52+02:00"}
+{"level":"info","msg":"dev:silly-demo open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-11-28T22:58:52+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:58:53+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-11-28T22:58:54+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Waiting for initial sync to complete","time":"2023-11-28T22:58:54+02:00"}
+{"level":"info","msg":"dev:silly-demo sync  Initial sync completed","time":"2023-11-28T22:58:58+02:00"}
+{"level":"info","msg":"dev:silly-demo ssh   Port forwarding started on: 10397 -\u003e 8022","time":"2023-11-28T22:58:59+02:00"}
+{"level":"info","msg":"dev:silly-demo proxy Port forwarding started on: 10408 \u003c- 10567","time":"2023-11-28T22:58:59+02:00"}
+{"level":"info","msg":"dev:silly-demo ssh   Use 'ssh silly-demo.silly-demo.devspace' to connect via SSH","time":"2023-11-28T22:58:59+02:00"}
+{"level":"info","msg":"dev:silly-demo term  Opening shell to main:silly-demo-helm-devspace-5cf88fccf7-wr8bd (pod:container)","time":"2023-11-28T22:59:00+02:00"}
+{"level":"error","msg":"dev:silly-demo ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T22:59:26+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T22:59:27+02:00"}
+{"level":"error","msg":"dev:silly-demo ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T23:00:00+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T23:00:01+02:00"}
+{"level":"error","msg":"dev:silly-demo ports Restarting because: error creating error stream for port 8080 -\u003e 8080: Timeout occurred","time":"2023-11-28T23:00:34+02:00"}
+{"level":"info","msg":"dev:silly-demo ports Port forwarding started on: 2345 -\u003e 2345, 8080 -\u003e 8080","time":"2023-11-28T23:00:35+02:00"}
+{"level":"info","msg":"dev:silly-demo open  Successfully opened http://localhost:8080","time":"2023-11-28T23:00:36+02:00"}

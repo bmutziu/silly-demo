@@ -1,0 +1,1 @@
+{"level":"error","msg":"Error in /api/logs?context=kind-ccf-kind-rvstd\u0026namespace=demo\u0026name=silly-demo-helm-devspace-5cf88fccf7-fjkpw\u0026container=main: container \"main\" in pod \"silly-demo-helm-devspace-5cf88fccf7-fjkpw\" is waiting to start: ContainerCreating","time":"2023-11-28T22:14:51+02:00"}

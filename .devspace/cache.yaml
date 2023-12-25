@@ -1,0 +1,10 @@
+images:
+    silly-demo:
+        imageConfigHash: f79e66c663c1f69ba657e675809998ff227b3325fe4fd1024a6a92aa572150c7
+        dockerfileHash: 39554b047f4dd9441f5a52f0eea0775426a21bb06935a340cbbd581403c3ce3f
+        contextHash: b12f9338670a7242eb1673d65b526fc950742476fd8a62ec397e5c040082297c
+        imageName: c8n.io/bmutziu/silly-demo
+        tag: 5b14428
+lastContext:
+    namespace: demo
+    context: kind-ccf-kind-rvstd

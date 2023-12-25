@@ -11,9 +11,11 @@ import (
 	"dagger.io/dagger"
 )
 
-var ctx = context.Background()
-var image = "c8n.io/vfarcic/silly-demo"
-var dev = false
+var (
+	ctx   = context.Background()
+	image = "c8n.io/bmutziu/silly-demo"
+	dev   = false
+)
 
 func main() {
 	if len(os.Getenv("DEV")) > 0 {
@@ -28,7 +30,7 @@ func main() {
 			tag = fmt.Sprintf("0.0.1-%d", milliseconds)
 		}
 	} else if len(tag) == 0 {
-		panic("TAG environment variable is not set")
+		panic("TAG environment variable is not set !")
 	}
 
 	// initialize Dagger client
@@ -36,7 +38,12 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	defer client.Close()
+	defer func(client *dagger.Client) {
+		err := client.Close()
+		if err != nil {
+
+		}
+	}(client)
 
 	// Actions
 	publish(client, tag)
@@ -62,6 +69,14 @@ func publishImages(client *dagger.Client, dockerfile string, tags []string) {
 	imageContainer := client.Host().Directory(".").DockerBuild(dagger.DirectoryDockerBuildOpts{
 		Dockerfile: dockerfile,
 	})
+	/*if !dev {
+		cmd := exec.Command("sh", "-c", "docker login -u bmutziu@gmail.com -p $REGISTRY_PASSWORD c8n.io")
+		output, err := cmd.CombinedOutput()
+		fmt.Printf("output: %s\n", output)
+		if err != nil {
+			panic(fmt.Errorf("error executing command: %v\noutput: %s", err, output))
+		}
+	}*/
 	for _, tag := range tags {
 		imageTag := fmt.Sprintf("%s:%s", image, tag)
 		imageAddr, err := imageContainer.Publish(ctx, imageTag)
@@ -71,10 +86,10 @@ func publishImages(client *dagger.Client, dockerfile string, tags []string) {
 		if !dev && !signed {
 			cosignCmd := fmt.Sprintf("cosign sign --yes --key env://COSIGN_PRIVATE_KEY %s", imageAddr)
 			if len(os.Getenv("REGISTRY_PASSWORD")) > 0 {
-				cosignCmd = fmt.Sprintf("cosign login c8n.io --username vfarcic --password $REGISTRY_PASSWORD && %s", cosignCmd)
+				cosignCmd = fmt.Sprintf("cosign login c8n.io --username bmutziu@gmail.com --password $REGISTRY_PASSWORD && %s", cosignCmd)
 			}
 			output, err := client.Container().
-				From("bitnami/cosign:2.2.1").
+				From("bitnami/cosign:2.2.2").
 				WithEnvVariable("COSIGN_PRIVATE_KEY", os.Getenv("COSIGN_PRIVATE_KEY")).
 				WithEnvVariable("COSIGN_PASSWORD", os.Getenv("COSIGN_PASSWORD")).
 				WithEnvVariable("REGISTRY_PASSWORD", os.Getenv("REGISTRY_PASSWORD")).
@@ -92,7 +107,7 @@ func publishImages(client *dagger.Client, dockerfile string, tags []string) {
 }
 
 func deploy(client *dagger.Client) {
-	out, err := client.Container().From("golang:1.21.4").
+	out, err := client.Container().From("golang:1.21.5").
 		WithExec([]string{"go", "install", "github.com/stefanprodan/timoni/cmd/timoni@latest"}).
 		WithDirectory("timoni", client.Host().Directory("timoni")).
 		WithExec([]string{"sh", "-c", "timoni build silly-demo timoni --values timoni/values-dev.yaml"}).
@@ -133,11 +148,13 @@ func publishTimoni(client *dagger.Client, tag string) {
 		}
 		regex := regexp.MustCompile(`image: tag:.*`)
 		replacedString := regex.ReplaceAllString(string(fileContents), fmt.Sprintf("image: tag: \"%s\"", tag))
-		file, err := os.OpenFile("timoni/values.cue", os.O_WRONLY|os.O_TRUNC, 0644)
+		file, err := os.OpenFile("timoni/values.cue", os.O_WRONLY|os.O_TRUNC, 0o644)
 		if err != nil {
 			panic(err)
 		}
-		defer file.Close()
+		defer func(file *os.File) {
+			_ = file.Close()
+		}(file)
 		_, err = file.WriteString(replacedString)
 		if err != nil {
 			panic(err)
@@ -147,11 +164,11 @@ func publishTimoni(client *dagger.Client, tag string) {
 			panic(err)
 		}
 		regPass := client.SetSecret("registry-password", os.Getenv("REGISTRY_PASSWORD"))
-		out, err := client.Container().From("golang:1.21.4").
+		out, err := client.Container().From("golang:1.21.5").
 			WithExec([]string{"go", "install", "github.com/stefanprodan/timoni/cmd/timoni@latest"}).
 			WithDirectory("timoni", client.Host().Directory("timoni")).
 			WithSecretVariable("REGISTRY_PASSWORD", regPass).
-			WithExec([]string{"sh", "-c", fmt.Sprintf(`timoni mod push timoni oci://%s-package --version %s --creds vfarcic:$REGISTRY_PASSWORD`, image, tag)}).
+			WithExec([]string{"sh", "-c", fmt.Sprintf(`timoni mod push timoni oci://%s-package --version %s --creds bmutziu@gmail.com:$REGISTRY_PASSWORD`, image, tag)}).
 			Stdout(ctx)
 		if err != nil {
 			println(out)
