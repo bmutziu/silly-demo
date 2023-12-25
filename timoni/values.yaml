@@ -1,6 +1,6 @@
 values:
   image:
-    tag: "1.6.4"
+    tag: "1.6.5"
   ingress:
     # className: traefik
     host: bmutziu.me

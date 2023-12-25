@@ -1,6 +1,6 @@
 image:
   repository: c8n.io/vfarcic/silly-demo
-  tag: 1.6.4
+  tag: 1.6.5
 ingress:
   host: bmutziu.me
 db:
