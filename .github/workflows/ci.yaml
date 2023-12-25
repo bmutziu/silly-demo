@@ -56,6 +56,9 @@ jobs:
         env:
           COSIGN_PRIVATE_KEY: ${{ secrets.COSIGN_PRIVATE_KEY }}
           COSIGN_PASSWORD: ${{ secrets.COSIGN_PASSWORD }}
+      - name: Delete signing key from disk
+        run: 'rm cosign.key'
+        shell: bash
       - name: Setup Timoni
         uses: stefanprodan/timoni/actions/setup@main
       - name: Timoni package
