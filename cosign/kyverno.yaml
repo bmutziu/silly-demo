@@ -17,14 +17,14 @@ spec:
             - Deployment
       verifyImages:
       - imageReferences:
-        - "docker.io/vfarcic/silly-demo:*"
-        - "c8n.io/vfarcic/silly-demo:*"
+        - "docker.io/bmutziu/silly-demo:*"
+        - "c8n.io/bmutziu/silly-demo:*"
         attestors:
         - count: 1
           entries:
           - keys:
               publicKeys: |-
                 -----BEGIN PUBLIC KEY-----
-                MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJUDnUq1zczH77549GQ5F8nhrA10h
-                FjYQvScNBEbIdD3ys1YVyFI6nSb0dXU/+jBfUpeCTYFqW81gInY3bnzULA==
+                MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIpcC5aPlFRXn2PJ7gcpTCqHlj/wJ
+                xXF6uvzzBfJVkVZcEenGb7cvrExgbfDaMBdzn4BtVQjuDkGHbdehWwrCQQ==
                 -----END PUBLIC KEY-----
