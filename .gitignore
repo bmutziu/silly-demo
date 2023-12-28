@@ -6,6 +6,7 @@
 /silly-demo-helm*
 /.vscode/*
 /.idea/*
+/dagger/.idea/*
 
 
 # Ignore DevSpace cache and log folder
